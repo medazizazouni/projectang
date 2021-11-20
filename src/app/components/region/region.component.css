@@ -1,0 +1,30 @@
+p{margin-top:50px;
+    margin-left:100px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;}
+img{
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 100px;
+    width: 200px;
+}
+div{position:flex;}
+.maindiv{background-color: #1c1e21;
+    height: 250px;    
+    width: 250px;
+    margin: 30px;
+    border: 3px solid  white;
+    border-radius: 5px;
+    
+    
+    
+    }
+    .maindiv:hover{
+        animation: show 1s;
+    }
+    @keyframes show {
+        from{width:250px;height:250px; }
+        to{width: 270px ;height:270px;}
+        
+    }
